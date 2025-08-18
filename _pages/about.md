@@ -19,7 +19,7 @@ News
 Research Experience
 ======
 - **Microsoft Research Asia Alumni**,  Beijing, China, March 2025 - July 2025
-  [Data, Knowledge, and Intelligence group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/)
+  - [Data, Knowledge, and Intelligence group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/)
   - Research Intern
 
 
