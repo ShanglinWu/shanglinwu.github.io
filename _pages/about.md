@@ -24,16 +24,17 @@ Research Experience
 
 Publications
 ======
-<div style="float: left; width: 300px; margin-right: 20px;">
-  <img src="../files/KG_Factuality.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 30%; height: auto;">
-</div>
-
-<div style="overflow: hidden;">
-  [Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction](https://arxiv.org/abs/2509.03540)  
-  **Shanglin Wu**, Lihui Liu, Jinho D. Choi, Kai Shu  
-</div>
-
-<div style="clear: both;"></div>
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 30%; vertical-align: top;">
+      ![Diagram of KG Factuality Improvement](../files/KG_Factuality.jpg)
+    </td>
+    <td style="width: 70%; vertical-align: top;">
+      [Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction](https://arxiv.org/abs/2509.03540)  
+      **Shanglin Wu**, Lihui Liu, Jinho D. Choi, Kai Shu  
+    </td>
+  </tr>
+</table>
 
 Education
 ======
