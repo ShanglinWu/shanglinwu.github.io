@@ -24,12 +24,16 @@ Research Experience
 
 Publications
 ======
-<img src="../files/KG_Factuality.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 20%; height: auto;">
+<div style="float: left; width: 300px; margin-right: 20px;">
+  <img src="../files/KG_Factuality.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 30%; height: auto;">
+</div>
 
-
-  [Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction](https://arxiv.org/abs/2509.03540) \\
+<div style="overflow: hidden;">
+  [Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction](https://arxiv.org/abs/2509.03540)  
   **Shanglin Wu**, Lihui Liu, Jinho D. Choi, Kai Shu  
-  *Proceedings of the 2025 Conference on Natural Language Processing (NLP 2025)*, 2025
+</div>
+
+<div style="clear: both;"></div>
 
 Education
 ======
