@@ -22,6 +22,11 @@ Research Experience
   - [Data, Knowledge, and Intelligence group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/)
   - Research Intern
 
+Publications
+======
+![Alt text](../files/KG_Factuality.jpg)
+[Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction](https://arxiv.org/abs/2509.03540)
+**Shanglin Wu**, Lihui Liu, Jinho D. Choi, Kai Shu
 
 
 Education
