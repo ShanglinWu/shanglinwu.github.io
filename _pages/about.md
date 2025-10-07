@@ -26,10 +26,10 @@ Publications
 ======
 <table style="width: 100%; border: none; border-collapse: collapse;">
   <tr>
-    <td style="width: 30%; vertical-align: top;">
-      <img src="../files/KG_Factuality.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto;">
+    <td style="width: 30%; vertical-align: center; border: none; padding: 0;">
+      <img src="../files/KG_Factuality.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto; display: block;">
     </td>
-    <td style="width: 70%; vertical-align: top; text-align: center; font-size: 1.2em;">
+    <td style="width: 70%; vertical-align: center; text-align: center; font-size: 1.2em;">
       <a href="https://arxiv.org/abs/2509.03540">Improving Factuality in LLMs via Inference-Time<br>Knowledge Graph Construction</a><br>
       <strong>Shanglin Wu</strong>, Lihui Liu, Jinho D. Choi, Kai Shu<br>
     </td>
