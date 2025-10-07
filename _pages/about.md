@@ -27,11 +27,11 @@ Publications
 <table style="width: 100%;">
   <tr>
     <td style="width: 30%; vertical-align: top;">
-      ![Diagram of KG Factuality Improvement](../files/KG_Factuality.jpg)
+      <img src="../files/KG_Factuality.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto;">
     </td>
     <td style="width: 70%; vertical-align: top;">
-      [Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction](https://arxiv.org/abs/2509.03540)  
-      **Shanglin Wu**, Lihui Liu, Jinho D. Choi, Kai Shu  
+      <a href="https://arxiv.org/abs/2509.03540">Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction</a><br>
+      <strong>Shanglin Wu</strong>, Lihui Liu, Jinho D. Choi, Kai Shu<br>
     </td>
   </tr>
 </table>
