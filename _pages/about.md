@@ -36,6 +36,18 @@ Publications
   </tr>
 </table>
 
+<table style="width: 100%; border: none; border-collapse: collapse;">
+  <tr>
+    <td style="width: 30%; vertical-align: center; border: none; padding: 0;">
+      <img src="../files/LLM-MAS_Memory.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto; display: block;">
+    </td>
+    <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
+      <a href="https://www.researchgate.net/publication/398392208_Memory_in_LLM-based_Multi-agent_Systems_Mechanisms_Challenges_and_Collective_Intelligence">Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence</a><br>
+      <strong>Shanglin Wu</strong>, Kai Shu<br>
+    </td>
+  </tr>
+</table>
+
 Education
 ======
 - 2025 - Now: Ph.D., Computer Science and Informatics. Emory University.
