@@ -55,7 +55,7 @@ Education
 
 Academic Service
 ======
-Reviewer/Program Committee: ICLR{2026}, TACL{2026}, WWW{2026}, ACL ARR{2025}, IEEE CogMI{2025}, IEEE BigData{2026}.
+- **Reviewer/Program Committee:** ICLR{2026}, TACL{2026}, WWW{2026}, ACL ARR{2025}, IEEE CogMI{2025}, IEEE BigData{2026}.
 
 
 
