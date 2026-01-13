@@ -9,7 +9,7 @@ redirect_from:
 
 I'm Shanglin (Jason) Wu, a first-year Ph.D. student in Computer Science and Informatics at Emory University, where I am advised by Dr. [Kai Shu](https://www.cs.emory.edu/~kshu5/). I received my Bachelor’s degree in Artificial Intelligence from [Yuanpei College, Peking University](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm) in 2025.
 
-My research interests center on trustworthy AI, with a particular focus on the interpretability of large language models (LLMs). Specifically, I am interested in exploring the mechanisms of reasoning and knowledge grounding in LLMs, aiming to develop methods that enhance both their factual consistency and explainability. By improving the trustworthiness of LLMs, I hope to contribute to their safe and effective application across a wide range of domains.
+My research interests center on building the next generation of autonomous AI agents. Specifically, my work addresses two fundamental challenges in the field: How do we make agents more trustworthy, and how do we make multiple agents work together effectively? I am driven by the potential of agents systems to solve complex, real-world problems across domains.
 
 
 News
