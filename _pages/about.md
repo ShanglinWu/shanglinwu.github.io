@@ -53,6 +53,10 @@ Education
 - 2025 - Now: Ph.D., Computer Science and Informatics. Emory University.
 - 2021 2025: B.s., Artificial Intelligence. Peking University
 
+Academic Service
+======
+Reviewer/Program Committee: ICLR{2026}, TACL{2026}, WWW{2026}, ACL ARR{2025}, IEEE CogMI{2025}, IEEE BigData{2026}.
+
 
 
 
