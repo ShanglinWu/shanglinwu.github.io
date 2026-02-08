@@ -14,6 +14,7 @@ My research interests center on building the next generation of autonomous AI ag
 
 News
 ======
+- 2026.02: 🎉🎉 Our paper *Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence* is accepted by PAKDD 2026!
 - 2025.07: 🎉🎉 Completed my internship in Microsft Research Asia Alumni!
 
 Research Experience
