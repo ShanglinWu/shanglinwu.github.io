@@ -28,6 +28,19 @@ Publications
 <table style="width: 100%; border: none; border-collapse: collapse;">
   <tr>
     <td style="width: 30%; vertical-align: center; border: none; padding: 0;">
+      <img src="../files/LLM-MAS_Memory.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto; display: block;">
+    </td>
+    <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
+      <a href="https://www.techrxiv.org/users/1007269/articles/1367390-memory-in-llm-based-multi-agent-systems-mechanisms-challenges-and-collective-intelligence">Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence</a><br>
+      <strong>Shanglin Wu</strong>, Kai Shu<br>
+      <span style="font-size: 0.9em; color: #555;">Proceedings of the 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2026)</span>
+    </td>
+  </tr>
+</table>
+
+<table style="width: 100%; border: none; border-collapse: collapse;">
+  <tr>
+    <td style="width: 30%; vertical-align: center; border: none; padding: 0;">
       <img src="../files/KG_Factuality.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto; display: block;">
     </td>
     <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
@@ -37,26 +50,16 @@ Publications
   </tr>
 </table>
 
-<table style="width: 100%; border: none; border-collapse: collapse;">
-  <tr>
-    <td style="width: 30%; vertical-align: center; border: none; padding: 0;">
-      <img src="../files/LLM-MAS_Memory.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto; display: block;">
-    </td>
-    <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
-      <a href="https://www.researchgate.net/publication/398392208_Memory_in_LLM-based_Multi-agent_Systems_Mechanisms_Challenges_and_Collective_Intelligence">Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence</a><br>
-      <strong>Shanglin Wu</strong>, Kai Shu<br>
-    </td>
-  </tr>
-</table>
+
 
 Education
 ======
 - 2025 - Now: Ph.D., Computer Science and Informatics. Emory University.
-- 2021 2025: B.s., Artificial Intelligence. Peking University
+- 2021 - 2025: B.s., Artificial Intelligence. Peking University
 
 Academic Service
 ======
-- **Reviewer/Program Committee:** ICLR{2026}, TACL{2026}, WWW{2026}, ACL ARR{2025}, IEEE CogMI{2025}, IEEE BigData{2026}, SIGIR{2026}.
+- **Sub-reviewer:** ICLR{2026}, TACL{2026}, WWW{2026}, ACL ARR{2025}, IEEE CogMI{2025}, IEEE BigData{2026}, SIGIR{2026}.
 
 
 
