@@ -47,6 +47,7 @@ Publications
     <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
       <a href="https://arxiv.org/abs/2509.03540">Improving Factuality in LLMs via Inference-Time<br>Knowledge Graph Construction</a><br>
       <strong>Shanglin Wu</strong>, Lihui Liu, Jinho D. Choi, Kai Shu<br>
+      <span style="font-size: 0.9em; color: #555;">Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</span>
     </td>
   </tr>
 </table>
