@@ -52,6 +52,19 @@ Publications
   </tr>
 </table>
 
+<table style="width: 100%; border: none; border-collapse: collapse;">
+  <tr>
+    <td style="width: 30%; vertical-align: center; border: none; padding: 0;">
+      <img src="../files/LLMA-Mem.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto; display: block;">
+    </td>
+    <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
+      <a href="https://arxiv.org/abs/2604.03295">Scaling Teams or Scaling Time?<br>Memory Enabled Lifelong Learning in LLM Multi-Agent Systems</a><br>
+      <strong>Shanglin Wu</strong>, Yuyang Luo, Yueqing Liang, Kaiwen Shi, Yanfang Ye, Ali Payani, Kai Shu<br>
+      <!-- <span style="font-size: 0.9em; color: #555;">Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</span> -->
+    </td>
+  </tr>
+</table>
+
 
 
 Education
