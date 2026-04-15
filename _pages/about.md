@@ -14,6 +14,7 @@ My research focuses on developing the next generation of autonomous AI agents, w
 
 News
 ======
+- 2026.04: Excited to join Cisco Research as AI/Intelligent Systems PhD Intern for Summer 2026!
 - 2026.04: 🎉🎉 Our paper *Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction* is accepted by **ACL findings 2026**! See you in San Diego!
 - 2026.02: 🎉🎉 Our paper *Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence* is accepted by **PAKDD 2026**!
 - 2025.07: 🎉🎉 Completed my internship in Microsft Research Asia Alumni!
