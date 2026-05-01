@@ -14,7 +14,8 @@ My research focuses on developing the next generation of autonomous AI agents, w
 
 News
 ======
-- 2026.04: Excited to join Cisco Research as AI/Intelligent Systems PhD Intern for Summer 2026!
+- 2026.05: Honored to receive the **Excellence in Teaching Assistance Commendation** for year 2025–26 from the Department of Computer Science! 
+- 2026.04: Excited to join **Cisco Research** as AI/Intelligent Systems PhD Intern for Summer 2026!
 - 2026.04: 🎉🎉 Our paper *Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction* is accepted by **ACL findings 2026**! See you in San Diego!
 - 2026.02: 🎉🎉 Our paper *Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence* is accepted by **PAKDD 2026**!
 - 2025.07: 🎉🎉 Completed my internship in Microsft Research Asia Alumni!
@@ -73,9 +74,16 @@ Education
 - 2025 - Now: Ph.D., Computer Science and Informatics. Emory University.
 - 2021 - 2025: B.s., Artificial Intelligence. Peking University
 
+Honors & Awards
+======
+- **Excellence in Teaching Assistance Commendation**, *Emory University*, 2026
+  - Awarded by the Department of Computer Science for exceptional dependability, proactivity, and initiative.
+
 Academic Service
 ======
-- **Sub-reviewer:** ICLR{2026}, TACL{2026}, WWW{2026}, ACL ARR{2025}, IEEE CogMI{2025}, IEEE BigData{2026}, SIGIR{2026}.
+- **Reviewer/Sub-reviewer:** ICLR{2026}, TACLResume_v2_0_{2026}, WWW{2026}, ACL ARR{2025}, IEEE CogMI{2025}, IEEE BigData{2026}, SIGIR{2026}, COLM{2026}, Neurips{2026}.
+
+
 
 
 
