@@ -16,7 +16,6 @@ News
 ======
 - 2026.05: Honored to receive the **Excellence in Teaching Assistance Commendation** for year 2025–26 from the Department of Computer Science! 
 - 2026.04: Excited to join **Cisco Research** as AI/Intelligent Systems PhD Intern for Summer 2026!
-- 2026.04: 🎉🎉 Our paper *Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction* is accepted by **ACL findings 2026**! See you in San Diego!
 - 2026.02: 🎉🎉 Our paper *Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence* is accepted by **PAKDD 2026**!
 - 2025.07: 🎉🎉 Completed my internship in Microsft Research Asia Alumni!
 
@@ -49,7 +48,6 @@ Publications
     <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
       <a href="https://arxiv.org/abs/2509.03540">Improving Factuality in LLMs via Inference-Time<br>Knowledge Graph Construction</a><br>
       <strong>Shanglin Wu</strong>, Lihui Liu, Jinho D. Choi, Kai Shu<br>
-      <span style="font-size: 0.9em; color: #555;">Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</span>
     </td>
   </tr>
 </table>
