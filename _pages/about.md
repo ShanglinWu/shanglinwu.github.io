@@ -14,6 +14,7 @@ My research focuses on developing the next generation of autonomous AI agents, w
 
 News
 ======
+- 2026.06: 🎉🎉 Our paper *Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence* received **Best Survey Paper Award 🏆** from PAKDD 2026!
 - 2026.05: Honored to receive the **Excellence in Teaching Assistance Commendation** for year 2025–26 from the Department of Computer Science! 
 - 2026.04: Excited to join **Cisco Research** as AI/Intelligent Systems PhD Intern for Summer 2026!
 - 2026.02: 🎉🎉 Our paper *Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence* is accepted by **PAKDD 2026**!
