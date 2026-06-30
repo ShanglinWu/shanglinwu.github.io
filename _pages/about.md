@@ -14,17 +14,14 @@ My research focuses on developing the next generation of autonomous AI agents, w
 
 News
 ======
+- 2026.06: 🎉🎉 Our paper *Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey* is accepted by **TMLR**!
 - 2026.06: 🎉🎉 Our paper *Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence* received **Best Survey Paper Award 🏆** from PAKDD 2026!
 - 2026.05: Honored to receive the **Excellence in Teaching Assistance Commendation** for year 2025–26 from the Department of Computer Science! 
 - 2026.04: Excited to join **Cisco Research** as AI/Intelligent Systems PhD Intern for Summer 2026!
 - 2026.02: 🎉🎉 Our paper *Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence* is accepted by **PAKDD 2026**!
 - 2025.07: 🎉🎉 Completed my internship in Microsft Research Asia Alumni!
 
-Research Experience
-======
-- **Microsoft Research Asia Alumni**,  Beijing, China, March 2025 - July 2025
-  - [Data, Knowledge, and Intelligence group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/)
-  - Research Intern
+
 
 Publications
 ======
@@ -37,6 +34,19 @@ Publications
       <a href="https://www.techrxiv.org/users/1007269/articles/1367390-memory-in-llm-based-multi-agent-systems-mechanisms-challenges-and-collective-intelligence">Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence</a><br>
       <strong>Shanglin Wu</strong>, Kai Shu<br>
       <span style="font-size: 0.9em; color: #555;">Proceedings of the 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2026)</span>
+    </td>
+  </tr>
+</table>
+
+<table style="width: 100%; border: none; border-collapse: collapse;">
+  <tr>
+    <td style="width: 30%; vertical-align: center; border: none; padding: 0;">
+      <img src="../files/memory_survey.png" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto; display: block;">
+    </td>
+    <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
+      <a href="https://arxiv.org/abs/2602.06052">Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey</a><br>
+      Wei-Chieh Huang, Weizhi Zhang, Yueqing Liang, ..., <strong>Shanglin Wu</strong>,..., Kai Shu<br>
+      <span style="font-size: 0.9em; color: #555;">Transactions on Machine Learning Research</span>
     </td>
   </tr>
 </table>
@@ -66,7 +76,11 @@ Publications
   </tr>
 </table>
 
-
+Research Experience
+======
+- **Microsoft Research Asia Alumni**,  Beijing, China, March 2025 - July 2025
+  - [Data, Knowledge, and Intelligence group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/)
+  - Research Intern
 
 Education
 ======
