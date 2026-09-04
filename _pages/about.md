@@ -9,7 +9,7 @@ redirect_from:
 
 I'm Shanglin (Jason) Wu, a first-year Ph.D. student in Computer Science and Informatics at Emory University, where I am advised by Dr. [Kai Shu](https://www.cs.emory.edu/~kshu5/). I received my Bachelor’s degree in Artificial Intelligence from [Yuanpei College, Peking University](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm) in 2025.
 
-My research focuses on developing the next generation of autonomous AI agents, with a specific emphasis on two fundamental pillars: enabling lifelong learning and ensuring reliable multi-agent collaboration. I am driven by the challenge of building agentic systems that can adapt continuously to new experiences and collaborate effectively to solve complex, high-stakes problems in real-world environments.
+My research focuses on understanding the fundamental principles that govern multi-agent AI systems, particularly how autonomous agents collaborate, learn, and adapt through interaction. I am especially interested in how collective behaviors emerge from individual agents, how agents learn continually from experience, and how coordination failures and emergent risks arise as these systems scale. My goal is to develop a deeper understanding of the mechanisms underlying learning, collaboration, and safety in increasingly autonomous multi-agent systems.
 
 
 News
@@ -46,7 +46,7 @@ Publications
     <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
       <a href="https://arxiv.org/abs/2602.06052">Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey</a><br>
       Wei-Chieh Huang, Weizhi Zhang, Yueqing Liang, ..., <strong>Shanglin Wu</strong>,..., Kai Shu<br>
-      <span style="font-size: 0.9em; color: #555;">Transactions on Machine Learning Research</span>
+      <span style="font-size: 0.9em; color: #555;">Transactions on Machine Learning Research (TMLR). Core contributor.</span>
     </td>
   </tr>
 </table>
@@ -78,6 +78,10 @@ Publications
 
 Research Experience
 ======
+- **Cisco Research**, May 2026 - August 2026
+  - Research Intern
+  - Mentor: Ali Payani
+  - Developed We-Intend, a multi-agent RL framework that trains LLM agents to coordinate via verifiable joint-intention primitives, improving collaboration across cooperative benchmarks without inference-time scaffolding.
 - **Microsoft Research Asia Alumni**,  Beijing, China, March 2025 - July 2025
   - [Data, Knowledge, and Intelligence group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/)
   - Research Intern
@@ -95,7 +99,6 @@ Honors & Awards
 Academic Service
 ======
 - **Reviewer/Sub-reviewer:** ICLR{2026}, TACL{2026}, WWW{2026}, ACL ARR{2025}, IEEE CogMI{2025}, IEEE BigData{2026}, SIGIR{2026}, COLM{2026}, Neurips{2026}, SDM{2026}, EMNLP{2026}.
-
 
 
 
