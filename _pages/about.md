@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm Shanglin (Jason) Wu, a first-year Ph.D. student in Computer Science and Informatics at Emory University, where I am advised by Dr. [Kai Shu](https://www.cs.emory.edu/~kshu5/). I received my Bachelor’s degree in Artificial Intelligence from [Yuanpei College, Peking University](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm) in 2025.
+I'm Shanglin (Jason) Wu, a second-year Ph.D. student in Computer Science and Informatics at Emory University, where I am advised by Dr. [Kai Shu](https://www.cs.emory.edu/~kshu5/). I received my Bachelor’s degree in Artificial Intelligence from [Yuanpei College, Peking University](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm) in 2025.
 
 My research focuses on understanding the fundamental principles that govern multi-agent AI systems, particularly how autonomous agents collaborate, learn, and adapt through interaction. I am especially interested in how collective behaviors emerge from individual agents, how agents learn continually from experience, and how coordination failures and emergent risks arise as these systems scale. My goal is to develop a deeper understanding of the mechanisms underlying learning, collaboration, and safety in increasingly autonomous multi-agent systems.
 
@@ -94,7 +94,6 @@ Honors & Awards
 Academic Service
 ======
 - **Reviewer/Sub-reviewer:** ICLR{2026}, TACL{2026}, WWW{2026}, ACL ARR{2025}, IEEE CogMI{2025}, IEEE BigData{2026}, SIGIR{2026}, COLM{2026}, Neurips{2026}, SDM{2026}, EMNLP{2026}.
-
 
 
 
