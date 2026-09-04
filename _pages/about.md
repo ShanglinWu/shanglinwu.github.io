@@ -79,12 +79,7 @@ Publications
 Research Experience
 ======
 - **Cisco Research**, May 2026 - August 2026
-  - Research Intern
-  - Mentor: Ali Payani
-  - Developed We-Intend, a multi-agent RL framework that trains LLM agents to coordinate via verifiable joint-intention primitives, improving collaboration across cooperative benchmarks without inference-time scaffolding.
 - **Microsoft Research Asia Alumni**,  Beijing, China, March 2025 - July 2025
-  - [Data, Knowledge, and Intelligence group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/)
-  - Research Intern
 
 Education
 ======
@@ -99,7 +94,6 @@ Honors & Awards
 Academic Service
 ======
 - **Reviewer/Sub-reviewer:** ICLR{2026}, TACL{2026}, WWW{2026}, ACL ARR{2025}, IEEE CogMI{2025}, IEEE BigData{2026}, SIGIR{2026}, COLM{2026}, Neurips{2026}, SDM{2026}, EMNLP{2026}.
-
 
 
 
