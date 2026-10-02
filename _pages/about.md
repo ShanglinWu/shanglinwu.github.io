@@ -78,8 +78,24 @@ Publications
 
 Research Experience
 ======
-- **Cisco Research**, May 2026 - August 2026
-- **Microsoft Research Asia Alumni**,  Beijing, China, March 2025 - July 2025
+<table style="width: 100%; border: none; border-collapse: collapse;">
+  <tr>
+    <td style="width: 70px; text-align: center; vertical-align: middle; border: none; padding: 4px 0;">
+      <img src="../files/logo_cisco.png" alt="Cisco" style="width: 50px; height: auto; display: block; margin: 0 auto;">
+    </td>
+    <td style="vertical-align: middle; border: none; padding: 4px 0 4px 10px;">
+      <strong>Cisco Research</strong>, May 2026 - August 2026
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 70px; text-align: center; vertical-align: middle; border: none; padding: 4px 0;">
+      <img src="../files/logo_microsoft.png" alt="Microsoft" style="width: 30px; height: auto; display: block; margin: 0 auto;">
+    </td>
+    <td style="vertical-align: middle; border: none; padding: 4px 0 4px 10px;">
+      <strong>Microsoft Research Asia Alumni</strong>, Beijing, China, March 2025 - July 2025
+    </td>
+  </tr>
+</table>
 
 Education
 ======
