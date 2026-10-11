@@ -1,0 +1,7 @@
+{%- assign author = site.author -%}
+<footer>
+  <div class="wrap"><span>© {{ site.time | date: "%Y" }} {{ author.name }}</span><span>Last updated {{ site.time | date: "%b %Y" }}</span></div>
+</footer>
+
+<div class="toast" id="toast" role="status"></div>
+<script src="{{ '/assets/js/site.js' | relative_url }}"></script>

@@ -14,6 +14,7 @@
   // and clicking an agent makes it broadcast.
   (function () {
     var hero = document.getElementById('about'), cv = document.getElementById('swarm');
+    if (!cv) return; // homepage only
     var ctx = cv.getContext('2d'), base = document.createElement('canvas'), bctx = base.getContext('2d');
     var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
     var W = 0, H = 0, dpr = 1, nodes = [], edges = [], packets = [], hover = null, C = {};
@@ -258,7 +259,9 @@
       navAs.forEach(function (a) { a.classList.toggle('active', a.getAttribute('href') === '#' + en.target.id); });
     });
   }, { rootMargin: '-45% 0px -50% 0px' });
-  ['about', 'news', 'publications', 'experience', 'service'].forEach(function (id) { spy.observe(document.getElementById(id)); });
+  ['about', 'news', 'publications', 'experience', 'service'].forEach(function (id) {
+    var el = document.getElementById(id); if (el) spy.observe(el);
+  });
 
   // Reveal on scroll (once)
   var rev = new IntersectionObserver(function (entries) {
@@ -298,6 +301,74 @@
       b.setAttribute('aria-expanded', open);
     });
   });
+
+  // Gallery filters + lightbox (Misc page)
+  (function () {
+    var grid = document.getElementById('gallery'), lb = document.getElementById('lightbox');
+    if (!grid || !lb) return;
+    var lbImg = lb.querySelector('img'), lbCap = lb.querySelector('.lb-cap'), lbCount = lb.querySelector('.lb-count');
+    var list = [], at = 0, lastFocus = null;
+
+    var gChips = document.querySelectorAll('#galleryFilters .chip');
+    gChips.forEach(function (c) {
+      c.addEventListener('click', function () {
+        gChips.forEach(function (x) { x.classList.toggle('on', x === c); });
+        grid.querySelectorAll('.shot').forEach(function (s) {
+          var show = c.dataset.f === 'all' || s.dataset.group === c.dataset.f;
+          s.classList.toggle('hidden', !show);
+          if (show) { s.style.animation = 'none'; s.offsetHeight; s.style.animation = 'fadeUp .4s ease both'; }
+        });
+      });
+    });
+
+    function show(i) {
+      at = (i + list.length) % list.length;
+      var el = list[at];
+      lb.classList.remove('loaded');
+      lbImg.onload = function () { lb.classList.add('loaded'); };
+      lbImg.src = el.dataset.full; lbImg.alt = el.querySelector('img').alt;
+      lbCap.textContent = el.dataset.caption;
+      lbCount.textContent = list.length > 1 ? String(at + 1).padStart(2, '0') + ' / ' + String(list.length).padStart(2, '0') : '';
+      lb.classList.toggle('single', list.length < 2);
+    }
+    function open(el) {
+      var group = el.closest('[data-lightbox-group]');
+      list = group ? [].filter.call(group.querySelectorAll('[data-full]'), function (x) { return !x.classList.contains('hidden'); }) : [el];
+      lastFocus = document.activeElement;
+      show(list.indexOf(el));
+      lb.hidden = false; lb.offsetHeight; lb.classList.add('open'); // reflow so the fade-in runs
+      document.body.style.overflow = 'hidden';
+      lb.querySelector('.lb-close').focus();
+    }
+    function close() {
+      lb.classList.remove('open'); document.body.style.overflow = '';
+      setTimeout(function () { lb.hidden = true; lbImg.removeAttribute('src'); }, 250);
+      if (lastFocus) lastFocus.focus();
+    }
+    document.querySelectorAll('[data-full]').forEach(function (el) {
+      el.addEventListener('click', function () { open(el); });
+      el.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(el); }
+      });
+    });
+    lb.querySelector('.lb-close').addEventListener('click', close);
+    lb.querySelector('.lb-prev').addEventListener('click', function (e) { e.stopPropagation(); show(at - 1); });
+    lb.querySelector('.lb-next').addEventListener('click', function (e) { e.stopPropagation(); show(at + 1); });
+    lb.addEventListener('click', function (e) { if (e.target === lb || e.target.classList.contains('lb-stage')) close(); });
+    addEventListener('keydown', function (e) {
+      if (lb.hidden) return;
+      if (e.key === 'Escape') close();
+      else if (e.key === 'ArrowLeft') show(at - 1);
+      else if (e.key === 'ArrowRight') show(at + 1);
+    });
+    var x0 = null; // swipe on touch screens
+    lb.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+    lb.addEventListener('touchend', function (e) {
+      if (x0 === null) return;
+      var dx = e.changedTouches[0].clientX - x0; x0 = null;
+      if (Math.abs(dx) > 50) show(at + (dx < 0 ? 1 : -1));
+    });
+  })();
 
   // BibTeX copy
   var toast = document.getElementById('toast'), tt;

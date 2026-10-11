@@ -1,0 +1,105 @@
+# Photos on the Misc page, in display order. Files live in images/gallery/ (<slug>.jpg full size, <slug>-sm.jpg grid size).
+# group must match a key in `groups`. date is optional.
+groups:
+  - key: gr
+    label: Ricoh GR IIIx
+  - key: film
+    label: Film
+  - key: 5d
+    label: Canon 5D Mark II
+
+feature:
+  slug: jiangjiang
+  alt: "Jiangjiang, my dog, grinning at the camera"
+  caption: "Jiangjiang · chief morale officer"
+  camera: RICOH GR IIIx
+  date: Jun 2025
+
+photos:
+  - slug: gr-shore
+    alt: "Kids running along the shoreline of a beach below green hills"
+    group: "gr"
+    camera: "RICOH GR IIIx"
+    date: "Jul 2025"
+    w: 900
+    h: 600
+  - slug: gr-lifeguards
+    alt: "Lifeguards in yellow and orange leaning on a railing by the beach"
+    group: "gr"
+    camera: "RICOH GR IIIx"
+    date: "Jul 2025"
+    w: 900
+    h: 600
+  - slug: gr-skyline
+    alt: "City skyline across the water at blue hour"
+    group: "gr"
+    camera: "RICOH GR IIIx"
+    date: "Jul 2025"
+    w: 900
+    h: 601
+  - slug: gr-escalator
+    alt: "People riding up and down escalators, in black and white"
+    group: "gr"
+    camera: "RICOH GR IIIx"
+    date: "Jul 2025"
+    w: 900
+    h: 600
+  - slug: gr-doorway
+    alt: "A bicycle parked outside an old wooden doorway, a small dog on the step"
+    group: "gr"
+    camera: "RICOH GR IIIx"
+    date: "Jun 2025"
+    w: 614
+    h: 900
+  - slug: gr-hydrant
+    alt: "A red fire hydrant draped with a white veil"
+    group: "gr"
+    camera: "RICOH GR IIIx"
+    date: "Jun 2025"
+    w: 600
+    h: 900
+  - slug: film-road
+    alt: "Half-frame diptych: a winding mountain road and a field, in black and white"
+    group: "film"
+    camera: "Film · half frame"
+    w: 900
+    h: 675
+  - slug: film-lake
+    alt: "A calm lake under summer clouds"
+    group: "film"
+    camera: "Film"
+    w: 612
+    h: 900
+  - slug: film-driftwood
+    alt: "Half-frame diptych: fallen tree trunks on a grassy hill"
+    group: "film"
+    camera: "Film · half frame"
+    w: 900
+    h: 612
+  - slug: film-mirror
+    alt: "Half-frame diptych: a park bench under willows, and a self-portrait in a round mirror"
+    group: "film"
+    camera: "Film · half frame"
+    w: 900
+    h: 603
+  - slug: 5d-autumn-hills
+    alt: "Rolling hills with autumn trees at golden hour"
+    group: "5d"
+    camera: "Canon EOS 5D Mark II"
+    date: "Sep 2023"
+    w: 600
+    h: 900
+  - slug: 5d-lone-tree
+    alt: "A lone tree on a grassy ridge under a blue sky"
+    group: "5d"
+    camera: "Canon EOS 5D Mark II"
+    date: "Sep 2023"
+    w: 900
+    h: 600
+  - slug: 5d-grassland
+    alt: "Golden grassland and wooded valleys in late afternoon light"
+    group: "5d"
+    camera: "Canon EOS 5D Mark II"
+    date: "Sep 2023"
+    w: 900
+    h: 600

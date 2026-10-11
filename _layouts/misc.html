@@ -1,0 +1,87 @@
+---
+# Misc page: intro, interests and a photo gallery. Text is in _pages/misc.md, photos in _data/gallery.yml.
+---
+{%- assign author = site.author -%}
+{%- assign g = site.data.gallery -%}
+{%- assign f = g.feature -%}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0, 2 | default: 'en' }}">
+<head>
+{% include site/head.html %}
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body class="page-misc">
+
+{% include site/nav.html %}
+
+<header class="misc-hero">
+  <div class="wrap">
+    <div class="misc-intro reveal">
+      <span class="eyebrow"><span class="dot"></span>{{ page.eyebrow }}</span>
+      <h1>{{ page.heading }}</h1>
+      <div class="bio">
+{{ content }}
+      </div>
+      <ul class="interests">
+        {%- for i in page.interests %}
+        <li><span class="ico" aria-hidden="true">{{ i.icon }}</span>{{ i.label }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+
+    <figure class="polaroid reveal" data-full="{{ '/images/gallery/' | append: f.slug | append: '.jpg' | relative_url }}"
+            data-caption="{{ f.caption }} — {{ f.camera }}{% if f.date %} · {{ f.date }}{% endif %}" tabindex="0" role="button" aria-label="View photo of Jiangjiang">
+      <span class="tape" aria-hidden="true"></span>
+      <img src="{{ '/images/gallery/' | append: f.slug | append: '-sm.jpg' | relative_url }}" alt="{{ f.alt }}" width="900" height="600">
+      <figcaption>{{ f.caption }}</figcaption>
+    </figure>
+  </div>
+</header>
+
+<section class="darkroom" id="photos">
+  <div class="sprockets" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="dr-head reveal">
+      <div>
+        <h2>Photographs</h2>
+        <p class="dr-sub">Candid moments, mostly on the street. {{ g.photos.size }} frames.</p>
+      </div>
+      <div class="filters" id="galleryFilters">
+        <button class="chip on" data-f="all">All<span class="n">{{ g.photos.size }}</span></button>
+        {%- for grp in g.groups %}
+        {%- assign hits = g.photos | where: "group", grp.key %}
+        <button class="chip" data-f="{{ grp.key }}">{{ grp.label }}<span class="n">{{ hits.size }}</span></button>
+        {%- endfor %}
+      </div>
+    </div>
+
+    <div class="gallery" id="gallery" data-lightbox-group>
+      {%- for p in g.photos %}
+      {%- capture cap %}{{ p.camera }}{% if p.date %} · {{ p.date }}{% endif %}{% endcapture %}
+      <figure class="shot" data-group="{{ p.group }}" data-full="{{ '/images/gallery/' | append: p.slug | append: '.jpg' | relative_url }}" data-caption="{{ cap | strip }}" tabindex="0" role="button" aria-label="Open photo: {{ p.alt | escape }}">
+        <img src="{{ '/images/gallery/' | append: p.slug | append: '-sm.jpg' | relative_url }}" alt="{{ p.alt | escape }}" width="{{ p.w }}" height="{{ p.h }}" loading="lazy">
+        <figcaption><span class="frame">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><span class="cam">{{ cap | strip }}</span></figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+  </div>
+  <div class="sprockets" aria-hidden="true"></div>
+</section>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lb-close" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+  <button class="lb-prev" aria-label="Previous photo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+  </button>
+  <div class="lb-stage"><img alt=""></div>
+  <button class="lb-next" aria-label="Next photo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+  </button>
+  <div class="lb-meta"><span class="lb-cap"></span><span class="lb-count"></span></div>
+</div>
+
+{% include site/footer.html %}
+</body>
+</html>
