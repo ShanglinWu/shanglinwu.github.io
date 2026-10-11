@@ -1,0 +1,9 @@
+# Filter chips above the publication list. `key` is matched against each publication's `tags`.
+- key: mas
+  label: Multi-Agent Systems
+- key: memory
+  label: Agent Memory
+- key: benchmark
+  label: Benchmarks
+- key: factuality
+  label: Factuality & KGs

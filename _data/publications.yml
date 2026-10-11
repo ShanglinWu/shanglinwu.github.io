@@ -1,0 +1,131 @@
+# Publications shown on the homepage, in display order.
+# featured: true  -> large card with thumbnail; false -> compact entry under "Other Publications".
+# Your name in `authors` is bolded automatically. `tags` must match keys in _data/publication_filters.yml.
+# badge style: "" (accent), muted, or award. link icon: paper or code.
+
+- title: "Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence"
+  url: "https://www.techrxiv.org/users/1007269/articles/1367390-memory-in-llm-based-multi-agent-systems-mechanisms-challenges-and-collective-intelligence"
+  authors: "Shanglin Wu, Kai Shu"
+  featured: true
+  image: "/files/LLM-MAS_Memory.jpg"
+  image_alt: "Overview figure of memory in LLM-based multi-agent systems"
+  award: true
+  venue: "Proceedings of the 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining"
+  badges:
+    - text: "PAKDD 2026"
+    - text: "🏆 Best Survey Paper"
+      style: award
+  tags: [mas, memory]
+  links:
+    - label: Paper
+      url: "https://www.techrxiv.org/users/1007269/articles/1367390-memory-in-llm-based-multi-agent-systems-mechanisms-challenges-and-collective-intelligence"
+      icon: paper
+    - label: Repo
+      url: "https://github.com/ShanglinWu/LLM-MAS_Memory_Survey"
+      icon: code
+  abstract: >-
+    Memory plays a central role in transforming Large Language Model (LLM)-based agents from reactive predictors into consistent, context-aware collaborators. While LLM-based single-agent memory has been extensively studied, memory in LLM-based Multi-Agent Systems (LLM-MAS) lacks a systematic taxonomy and review. In multi-agent contexts, memory becomes a shared cognitive infrastructure enabling collective intelligence, long-term coordination, and team evolvement. This survey provides the first comprehensive review of memory in LLM-MAS, synthesizing research across memory architectures, management and operations, evaluation, and application, while formalizing key definitions and introducing the design space. Our survey reveals that memory in LLM-MAS is not a trivial extension of single-agent memory but a distinct research frontier-with new challenges in synchronization, access control, scalability, alignment, and safety. By consolidating diverse literature, we aim to provide a foundation for future research in building intelligent, memory-augmented multi-agent systems. In order to follow the latest works in this field, we create and maintain a repository at [https://github.com/ShanglinWu/LLM-MAS_Memory_Survey](https://github.com/ShanglinWu/LLM-MAS_Memory_Survey).
+  bibtex: |-
+    @inproceedings{wu2026memory,
+      title     = {Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence},
+      author    = {Wu, Shanglin and Shu, Kai},
+      booktitle = {Proceedings of the 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)},
+      year      = {2026}
+    }
+
+- title: "Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey"
+  url: "https://arxiv.org/abs/2602.06052"
+  authors: "Wei-Chieh Huang, Weizhi Zhang, Yueqing Liang, …, Shanglin Wu, …, Kai Shu"
+  featured: true
+  image: "/files/memory_survey.png"
+  image_alt: "Overview figure of the foundation agent memory survey"
+  venue: "Transactions on Machine Learning Research"
+  badges:
+    - text: "TMLR"
+    - text: "Core contributor"
+      style: muted
+  tags: [memory]
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2602.06052"
+      icon: paper
+  abstract: >-
+    Research in artificial intelligence is shifting from model innovations and benchmark scores towards problem definition and rigorous real-world evaluation. As the field enters the "second half," the central challenge becomes real utility in long-horizon, dynamic, and user-dependent settings such as agentic coding, deep research, and computer use, where LLM-based agents face context explosion beyond fixed context windows and must continuously accumulate, manage, and selectively reuse information across extended interactions. Memory, with hundreds of papers released in 2025, therefore emerges as the critical solution to fill this utility gap. Beyond passive storage, memory is increasingly the substrate through which agents self-evolve: short-term memory gates which experiences are perceived and abstracted during execution, while long-term memory consolidates them into reusable knowledge and skills, forming the loop through which agents improve from their own experience. In this survey, we provide a unified view of foundation agent memory along three dimensions: memory substrate (internal parametric state and external retrieval-augmented stores), cognitive mechanism (sensory, working, episodic, semantic, and procedural), and memory subject (user-centric personalization and agent-centric experience). We then analyze how memory is operated under single- and multi-agent topologies and highlight learning policies over memory operations, showing how memory management itself is becoming a trainable capability spanning reinforcement-learned context curation, experience consolidation at decision time, and the emerging ecosystem of portable, shareable agent skills. Finally, we review evaluation benchmarks and metrics for memory utility, and outline open challenges and future directions.
+  bibtex: |-
+    @article{huang2026rethinking,
+      title   = {Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey},
+      author  = {Huang, Wei-Chieh and Zhang, Weizhi and Liang, Yueqing and others},
+      journal = {Transactions on Machine Learning Research},
+      year    = {2026}
+    }
+
+- title: "Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in LLM Multi-Agent Systems"
+  url: "https://arxiv.org/abs/2604.03295"
+  authors: "Shanglin Wu, Yuyang Luo, Yueqing Liang, Kaiwen Shi, Yanfang Ye, Ali Payani, Kai Shu"
+  featured: true
+  image: "/files/LLMA-Mem.jpg"
+  image_alt: "Overview figure of LLMA-Mem"
+  badges:
+    - text: "Preprint · 2026"
+      style: muted
+  tags: [mas, memory]
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2604.03295"
+      icon: paper
+  abstract: >-
+    Large language model (LLM) multi-agent systems can scale along two distinct dimensions: by increasing the number of agents and by improving through accumulated experience over time. Although prior work has studied these dimensions separately, their interaction under realistic cost constraints remains unclear. In this paper, we introduce a conceptual scaling view of multi-agent systems that jointly considers team size and lifelong learning ability, and we study how memory design shares this landscape. To this end, we propose LLMA-Mem, a lifelong memory framework for LLM multi-agent systems under flexible memory topologies. We evaluate LLMA-Mem on MultiAgentBench across coding, research, and database environments. Empirically, LLMA-Mem consistently improves long-horizon performance over baselines while reducing cost. Our analysis further reveals a non-monotonic scaling landscape: larger teams do not always produce better long-term performance, and smaller teams can outperform larger ones when memory better supports the reuse of experience. These findings position memory design as a practical path for scaling multi-agent systems more effectively and more efficiently over time.
+  bibtex: |-
+    @article{wu2026scaling,
+      title   = {Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in LLM Multi-Agent Systems},
+      author  = {Wu, Shanglin and Luo, Yuyang and Liang, Yueqing and Shi, Kaiwen and Ye, Yanfang and Payani, Ali and Shu, Kai},
+      journal = {arXiv preprint arXiv:2604.03295},
+      year    = {2026}
+    }
+
+- title: "JARVIS-Bench: Benchmarking Personal Intelligence Agents on Long-Horizon Real-User Daily Traces"
+  url: "https://openreview.net/forum?id=yGQt9wAGkS"
+  authors: "Weizhi Zhang, Wei-Chieh Huang, Yueqing Liang, …, Shanglin Wu, …, Philip S. Yu"
+  featured: false
+  venue: "Evaluations & Datasets Track"
+  badges:
+    - text: "NeurIPS 2026"
+  tags: [benchmark]
+  links:
+    - label: OpenReview
+      url: "https://openreview.net/forum?id=yGQt9wAGkS"
+      icon: paper
+  bibtex: |-
+    @inproceedings{zhang2026jarvis,
+      title     = {JARVIS-Bench: Benchmarking Personal Intelligence Agents on Long-Horizon Real-User Daily Traces},
+      author    = {Zhang, Weizhi and Huang, Wei-Chieh and Liang, Yueqing and Jiang, Liwei and Wang, Zhengxiang and Yang, Liangwei and Li, Zechen and Wu, Yuchen and Zhang, Haozhen and Wang, Yu and Bei, Yuanchen and Zhou, Yue and Zhu, Siqi and Zou, Henry Peng and Liu, Jiahong and Zhang, Xinni and Martin, Paul and Imperial, Joseph Marvin and Luo, Yuyang and Xu, Xiongxiao and Huang, Baixiang and Wu, Shanglin and Resck, Lucas and Wang, Yibo and Liu, Yuqing and He, Langzhou and Li, Chengze and Tian, Yuxin and Zheng, Kening and Ma, Enze and Huynh, Boi and Hui, Zheng and Yang, Rui and Feng, Tao and Yang, Jie and Li, Shanghao and Wang, Haoran and Yang, Wooseong and Zhang, Hanrong and Ma, Huanhuan and Yoon, Daye and Wu, Yaozu and Lian, Shikan and Ruan, Xiaoqian and Wang, Fangxin and Park, Hyeonjeong and Hu, Hins and Fan, Wenzhe and Wang, Chen and Gu, Yifan and Li, Dongyuan and Wang, Song and Caliskan, Aylin and Wang, Jindong and Luo, Xiao and Chen, Yankai and Shu, Kai and Liu, Xue and Yu, Philip S.},
+      booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+      year      = {2026}
+    }">BibTeX</button></span></div>
+              </li>
+              <li class="prow" data-tags="factuality">
+                <a class="ptitle" href="https://arxiv.org/abs/2509.03540">Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction</a>
+                <div class="pauthors
+
+- title: "Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction"
+  url: "https://arxiv.org/abs/2509.03540"
+  authors: "Shanglin Wu, Lihui Liu, Jinho D. Choi, Kai Shu"
+  featured: false
+  badges:
+    - text: "Preprint · 2025"
+      style: muted
+  tags: [factuality]
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2509.03540"
+      icon: paper
+  abstract: >-
+    Large Language Models (LLMs) often struggle with producing factually consistent answers due to limitations in their parametric memory. Retrieval-Augmented Generation (RAG) paradigms mitigate this issue by incorporating external knowledge at inference time. However, such methods typically handle knowledge as unstructured text, which reduces retrieval accuracy, hinders compositional reasoning, and amplifies the influence of irrelevant information on the factual consistency of LLM outputs. To overcome these limitations, we propose a novel framework that dynamically constructs and expands knowledge graphs (KGs) during inference, integrating both internal knowledge extracted from LLMs and external knowledge retrieved from external sources. Our method begins by extracting a seed KG from the question via prompting, followed by iterative expansion using the LLM's internal knowledge. The KG is then selectively refined through external retrieval, enhancing factual coverage and correcting inaccuracies. We evaluate our approach on three diverse Factual QA benchmarks, demonstrating consistent gains in factual accuracy over baselines. Our findings reveal that inference-time KG construction is a promising direction for enhancing LLM factuality in a structured, interpretable, and scalable manner.
+  bibtex: |-
+    @article{wu2025improving,
+      title   = {Improving Factuality in LLMs via Inference-Time Knowledge Graph Construction},
+      author  = {Wu, Shanglin and Liu, Lihui and Choi, Jinho D. and Shu, Kai},
+      journal = {arXiv preprint arXiv:2509.03540},
+      year    = {2025}
+    }">BibTeX</button></span></div>
+                <div class="drawer

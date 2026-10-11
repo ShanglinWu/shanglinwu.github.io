@@ -1,0 +1,19 @@
+research:
+  - org: Cisco Research
+    role: AI/Intelligent Systems PhD Intern
+    when: May 2026 – Aug 2026
+    logo: /files/logo_cisco.png
+  - org: Microsoft Research Asia
+    role: Research Intern · Beijing, China
+    when: Mar 2025 – Jul 2025
+    logo: /files/logo_microsoft.png
+
+education:
+  - org: Emory University
+    role: Ph.D. in Computer Science and Informatics
+    when: 2025 – Present
+    logo: /files/logo_emory.png
+  - org: Peking University
+    role: B.S. in Artificial Intelligence · Yuanpei College
+    when: 2021 – 2025
+    logo: /files/logo_pku.png

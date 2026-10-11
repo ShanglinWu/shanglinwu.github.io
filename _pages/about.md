@@ -1,116 +1,20 @@
 ---
 permalink: /
-# title: ""
-author_profile: true
+layout: home
 redirect_from: 
   - /about/
   - /about.html
+eyebrow: "Ph.D. Student · Emory University"
+aka: "Jason"
+research_tags:
+  - Multi-Agent Systems
+  - Agent Memory
+  - Collective Intelligence
+  - AI Safety
 ---
 
-I'm Shanglin (Jason) Wu, a second-year Ph.D. student in Computer Science and Informatics at Emory University, where I am advised by Dr. [Kai Shu](https://www.cs.emory.edu/~kshu5/). I received my Bachelor’s degree in Artificial Intelligence from [Yuanpei College, Peking University](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm) in 2025.
+<!-- Bio shown in the hero. News, publications, experience and service live in _data/*.yml. -->
 
-My research focuses on understanding the fundamental principles that govern multi-agent AI systems, particularly how autonomous agents collaborate, learn, and adapt through interaction. I am especially interested in how collective behaviors emerge from individual agents, how agents learn continually from experience, and how coordination failures and emergent risks arise as these systems scale. My goal is to develop a deeper understanding of the mechanisms underlying learning, collaboration, and safety in increasingly autonomous multi-agent systems.
+I'm a second-year Ph.D. student in Computer Science and Informatics at **Emory University**, advised by Dr. [Kai Shu](https://www.cs.emory.edu/~kshu5/). I received my B.S. in Artificial Intelligence from [Yuanpei College, Peking University](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm) in 2025.
 
-
-News
-======
-- 2026.06: 🎉🎉 Our paper *Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey* is accepted by **TMLR**!
-- 2026.06: 🎉🎉 Our paper *Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence* received **Best Survey Paper Award 🏆** from PAKDD 2026!
-- 2026.05: Honored to receive the **Excellence in Teaching Assistance Commendation** for year 2025–26 from the Department of Computer Science! 
-- 2026.04: Excited to join **Cisco Research** as AI/Intelligent Systems PhD Intern for Summer 2026!
-- 2026.02: 🎉🎉 Our paper *Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence* is accepted by **PAKDD 2026**!
-- 2025.07: 🎉🎉 Completed my internship in Microsft Research Asia Alumni!
-
-
-
-Publications
-======
-<table style="width: 100%; border: none; border-collapse: collapse;">
-  <tr>
-    <td style="width: 30%; vertical-align: center; border: none; padding: 0;">
-      <img src="../files/LLM-MAS_Memory.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto; display: block;">
-    </td>
-    <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
-      <a href="https://www.techrxiv.org/users/1007269/articles/1367390-memory-in-llm-based-multi-agent-systems-mechanisms-challenges-and-collective-intelligence">Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence</a><br>
-      <strong>Shanglin Wu</strong>, Kai Shu<br>
-      <span style="font-size: 0.9em; color: #555;">Proceedings of the 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2026)</span>
-    </td>
-  </tr>
-</table>
-
-<table style="width: 100%; border: none; border-collapse: collapse;">
-  <tr>
-    <td style="width: 30%; vertical-align: center; border: none; padding: 0;">
-      <img src="../files/memory_survey.png" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto; display: block;">
-    </td>
-    <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
-      <a href="https://arxiv.org/abs/2602.06052">Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey</a><br>
-      Wei-Chieh Huang, Weizhi Zhang, Yueqing Liang, ..., <strong>Shanglin Wu</strong>,..., Kai Shu<br>
-      <span style="font-size: 0.9em; color: #555;">Transactions on Machine Learning Research (TMLR). Core contributor.</span>
-    </td>
-  </tr>
-</table>
-
-<table style="width: 100%; border: none; border-collapse: collapse;">
-  <tr>
-    <td style="width: 30%; vertical-align: center; border: none; padding: 0;">
-      <img src="../files/KG_Factuality.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto; display: block;">
-    </td>
-    <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
-      <a href="https://arxiv.org/abs/2509.03540">Improving Factuality in LLMs via Inference-Time<br>Knowledge Graph Construction</a><br>
-      <strong>Shanglin Wu</strong>, Lihui Liu, Jinho D. Choi, Kai Shu<br>
-    </td>
-  </tr>
-</table>
-
-<table style="width: 100%; border: none; border-collapse: collapse;">
-  <tr>
-    <td style="width: 30%; vertical-align: center; border: none; padding: 0;">
-      <img src="../files/LLMA-Mem.jpg" alt="Diagram of KG Factuality Improvement" style="max-width: 100%; height: auto; display: block;">
-    </td>
-    <td style="width: 70%; vertical-align: middle; text-align: left; font-size: 1.2em; border: none;">
-      <a href="https://arxiv.org/abs/2604.03295">Scaling Teams or Scaling Time?<br>Memory Enabled Lifelong Learning in LLM Multi-Agent Systems</a><br>
-      <strong>Shanglin Wu</strong>, Yuyang Luo, Yueqing Liang, Kaiwen Shi, Yanfang Ye, Ali Payani, Kai Shu<br>
-      <!-- <span style="font-size: 0.9em; color: #555;">Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</span> -->
-    </td>
-  </tr>
-</table>
-
-Research Experience
-======
-<table style="width: 100%; border: none; border-collapse: collapse;">
-  <tr>
-    <td style="width: 70px; text-align: center; vertical-align: middle; border: none; padding: 4px 0;">
-      <img src="../files/logo_cisco.png" alt="Cisco" style="width: 50px; height: auto; display: block; margin: 0 auto;">
-    </td>
-    <td style="vertical-align: middle; border: none; padding: 4px 0 4px 10px;">
-      <strong>Cisco Research</strong>, May 2026 - August 2026
-    </td>
-  </tr>
-  <tr>
-    <td style="width: 70px; text-align: center; vertical-align: middle; border: none; padding: 4px 0;">
-      <img src="../files/logo_microsoft.png" alt="Microsoft" style="width: 30px; height: auto; display: block; margin: 0 auto;">
-    </td>
-    <td style="vertical-align: middle; border: none; padding: 4px 0 4px 10px;">
-      <strong>Microsoft Research Asia Alumni</strong>, Beijing, China, March 2025 - July 2025
-    </td>
-  </tr>
-</table>
-
-Education
-======
-- 2025 - Now: Ph.D., Computer Science and Informatics. Emory University.
-- 2021 - 2025: B.s., Artificial Intelligence. Peking University
-
-Honors & Awards
-======
-- **Excellence in Teaching Assistance Commendation**, *Emory University*, 2026
-  - Awarded by the Department of Computer Science for exceptional dependability, proactivity, and initiative.
-
-Academic Service
-======
-- **Program Committee Member:** WSDM{2027}.
-- **Reviewer/Sub-reviewer:** ICLR{2026}, TACL{2026}, WWW{2026}, ACL ARR{2025}, IEEE CogMI{2025}, IEEE BigData{2026}, SIGIR{2026}, COLM{2026}, Neurips{2026}, SDM{2026}, EMNLP{2026}, ICLR{2027}.
-
-
-
+My research focuses on understanding the fundamental principles that govern **multi-agent AI systems**, particularly how autonomous agents collaborate, learn, and adapt through interaction. I am especially interested in how collective behaviors emerge from individual agents, how agents learn continually from experience, and how coordination failures and emergent risks arise as these systems scale. My goal is to develop a deeper understanding of the mechanisms underlying learning, collaboration, and safety in increasingly autonomous multi-agent systems.
