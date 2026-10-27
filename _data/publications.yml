@@ -83,6 +83,26 @@
       year    = {2026}
     }
 
+- title: "Uncertainty in LLM Agents: A Comprehensive Survey"
+  url: "https://openreview.net/forum?id=7NoenVN5Ly"
+  authors: "Kaiwen Shi, Zheyuan Zhang, Caiqi Zhang, Zheyuan Liu, Zehong Wang, Shanglin Wu, …, Kai Shu, Artem Shelmanov, Yanfang Ye"
+  featured: false
+  badges: []
+  tags: [uncertainty]
+  links:
+    - label: OpenReview
+      url: "https://openreview.net/forum?id=7NoenVN5Ly"
+      icon: paper
+  abstract: >-
+    Large language models (LLMs) and LLM-based agents increasingly support consequential decisions and interact with external systems. As these systems move from generating responses to executing actions, however, a confident but unsupported commitment can become a tool call, environmental action, or state update whose effects propagate through later decisions. This risk makes uncertainty essential for characterizing when a model or agent approaches the boundary of reliable commitment. Because uncertainty must ultimately support decisions rather than remain an isolated measurement, this survey organizes the field through a lifecycle of *Quantification, Calibration, and Utilization*. Within this lifecycle, Quantification represents uncertainty-bearing evidence, whereas Calibration relates that evidence to specified reliability outcomes; together, they provide the basis for Utilization, which determines how uncertainty changes inference, action, or learning. This final stage becomes especially consequential in LLM-based agents because each uncertainty-conditioned intervention can reshape the observations, states, and decisions that follow. Accordingly, this survey analyzes agent uncertainty utilization as closed-loop trajectory control across State Construction, Action Selection, Execution & Feedback, and State Update. Along this loop, uncertainty can repair an insufficient decision state, regulate commitment and computational effort, adapt execution to newly observed consequences, and determine which beliefs or learning signals persist. Because an uncertainty signal may be produced at one stage yet consumed at another, existing methods are organized by signal granularity, uncertainty source stage, and application stage, thereby separating where uncertainty is computed from where it changes agent behavior. This organization, in turn, supports a broader discussion of industrial and consumer deployment, the positive and negative social impacts of uncertainty-aware agents, and open problems in uncertainty propagation, temporal calibration, causal credit assignment, dependence-aware coordination, and intervention-aware evaluation. This survey shifts attention from estimating uncertainty in isolation to using it to prevent unsupported commitments from propagating through agent trajectories.
+  bibtex: |-
+    @misc{shi2026uncertainty,
+      title  = {Uncertainty in LLM Agents: A Comprehensive Survey},
+      author = {Shi, Kaiwen and Zhang, Zheyuan and Zhang, Caiqi and Liu, Zheyuan and Wang, Zehong and Wu, Shanglin and Wang, Haoran and Wang, Xufei and Ma, Yijun and Bao, Han and Nelson, Colby and Ma, Xiaoyu and Sun, Weixiang and Shu, Kai and Shelmanov, Artem and Ye, Yanfang},
+      year   = {2026},
+      url    = {https://openreview.net/forum?id=7NoenVN5Ly}
+    }
+
 - title: "JARVIS-Bench: Benchmarking Personal Intelligence Agents on Long-Horizon Real-User Daily Traces"
   url: "https://openreview.net/forum?id=yGQt9wAGkS"
   authors: "Weizhi Zhang, Wei-Chieh Huang, Yueqing Liang, …, Shanglin Wu, …, Philip S. Yu"

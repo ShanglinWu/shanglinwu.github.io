@@ -5,5 +5,7 @@
   label: Agent Memory
 - key: benchmark
   label: Benchmarks
+- key: uncertainty
+  label: Uncertainty
 - key: factuality
   label: Factuality & KGs
